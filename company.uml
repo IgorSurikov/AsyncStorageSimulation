@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="235.3125" y="0.0">com.company.Customer</node>
+    <node x="113.47004419191921" y="1128.0">com.company.Main</node>
+    <node x="90.47004419191921" y="980.0">com.company.MainForm</node>
+    <node x="161.47004419191921" y="836.0">com.company.LoaderManager</node>
+    <node x="435.4700441919192" y="487.0">com.company.CustomerTask</node>
+    <node x="104.28475378787874" y="602.0">com.company.Loader</node>
+    <node x="21.5" y="476.0">com.company.Provider</node>
+    <node x="210.43529040404047" y="210.0">com.company.Storage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Loader" target="com.company.Provider">
+      <point x="-28.19999999999999" y="-92.0" />
+      <point x="146.58475378787875" y="582.0" />
+      <point x="148.375" y="582.0" />
+      <point x="54.375" y="38.0" />
+    </edge>
+    <edge source="com.company.Customer" target="com.company.Storage">
+      <point x="24.77777777777777" y="70.0" />
+      <point x="371.59027777777777" y="190.0" />
+      <point x="443.7686237373738" y="190.0" />
+      <point x="93.33333333333331" y="-103.0" />
+    </edge>
+    <edge source="com.company.CustomerTask" target="com.company.Customer">
+      <point x="53.25" y="-27.0" />
+      <point x="559.7200441919192" y="456.0" />
+      <point x="547.3298926767677" y="456.0" />
+      <point x="547.3298926767677" y="170.0" />
+      <point x="421.1458333333333" y="170.0" />
+      <point x="74.3333333333333" y="70.0" />
+    </edge>
+    <edge source="com.company.MainForm" target="com.company.LoaderManager">
+      <point x="24.0" y="-49.0" />
+      <point x="210.47004419191921" y="920.0" />
+      <point x="342.9700441919192" y="920.0" />
+      <point x="60.5" y="27.0" />
+    </edge>
+    <edge source="com.company.Storage" target="com.company.Customer">
+      <point x="-93.33333333333331" y="-103.0" />
+      <point x="257.10195707070716" y="190.0" />
+      <point x="322.03472222222223" y="190.0" />
+      <point x="-24.77777777777777" y="70.0" />
+    </edge>
+    <edge source="com.company.Loader" target="com.company.Customer">
+      <point x="0.0" y="-92.0" />
+      <point x="174.78475378787874" y="582.0" />
+      <point x="184.1375" y="582.0" />
+      <point x="184.1375" y="180.0" />
+      <point x="297.25694444444446" y="180.0" />
+      <point x="-49.55555555555556" y="70.0" />
+    </edge>
+    <edge source="com.company.Provider" target="com.company.Storage">
+      <point x="0.0" y="-38.0" />
+      <point x="94.0" y="436.0" />
+      <point x="225.99084595959602" y="436.0" />
+      <point x="-124.44444444444444" y="103.0" />
+    </edge>
+    <edge source="com.company.MainForm" target="com.company.Provider">
+      <point x="-40.0" y="-49.0" />
+      <point x="146.47004419191921" y="930.0" />
+      <point x="69.18529040404047" y="930.0" />
+      <point x="69.18529040404047" y="582.0" />
+      <point x="75.875" y="582.0" />
+      <point x="-18.125" y="38.0" />
+    </edge>
+    <edge source="com.company.MainForm" target="com.company.CustomerTask">
+      <point x="72.0" y="-49.0" />
+      <point x="258.4700441919192" y="950.0" />
+      <point x="506.4700441919192" y="950.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.MainForm">
+      <point x="36.5" y="-27.0" />
+      <point x="222.97004419191921" y="1103.0" />
+      <point x="234.47004419191921" y="1103.0" />
+      <point x="48.0" y="49.0" />
+    </edge>
+    <edge source="com.company.LoaderManager" target="com.company.Storage">
+      <point x="30.25" y="-27.0" />
+      <point x="312.7200441919192" y="811.0" />
+      <point x="324.82989267676777" y="811.0" />
+      <point x="324.82989267676777" y="456.0" />
+      <point x="319.3241792929294" y="456.0" />
+      <point x="-31.111111111111086" y="103.0" />
+    </edge>
+    <edge source="com.company.Loader" target="com.company.Storage">
+      <point x="28.19999999999999" y="-92.0" />
+      <point x="202.98475378787873" y="572.0" />
+      <point x="226.91322601010108" y="572.0" />
+      <point x="226.91322601010108" y="446.0" />
+      <point x="257.10195707070716" y="446.0" />
+      <point x="-93.33333333333331" y="103.0" />
+    </edge>
+    <edge source="com.company.MainForm" target="com.company.Loader">
+      <point x="-8.0" y="-49.0" />
+      <point x="178.47004419191921" y="910.0" />
+      <point x="150.97004419191921" y="910.0" />
+      <point x="150.97004419191921" y="811.0" />
+      <point x="157.15975378787874" y="811.0" />
+      <point x="-17.625" y="92.0" />
+    </edge>
+    <edge source="com.company.LoaderManager" target="com.company.Loader">
+      <point x="-30.25" y="-27.0" />
+      <point x="252.22004419191921" y="811.0" />
+      <point x="227.65975378787874" y="811.0" />
+      <point x="52.875" y="92.0" />
+    </edge>
+    <edge source="com.company.MainForm" target="com.company.Customer">
+      <point x="88.0" y="-49.0" />
+      <point x="274.4700441919192" y="960.0" />
+      <point x="587.9700441919192" y="960.0" />
+      <point x="587.9700441919192" y="160.0" />
+      <point x="445.9236111111111" y="160.0" />
+      <point x="99.11111111111107" y="70.0" />
+    </edge>
+    <edge source="com.company.Storage" target="com.company.LoaderManager">
+      <point x="0.0" y="103.0" />
+      <point x="350.4352904040405" y="456.0" />
+      <point x="346.8125" y="456.0" />
+      <point x="346.8125" y="811.0" />
+      <point x="373.2200441919192" y="811.0" />
+      <point x="90.75" y="-27.0" />
+    </edge>
+    <edge source="com.company.MainForm" target="com.company.Storage">
+      <point x="56.0" y="-49.0" />
+      <point x="242.47004419191921" y="940.0" />
+      <point x="424.9700441919192" y="940.0" />
+      <point x="424.9700441919192" y="446.0" />
+      <point x="412.6575126262627" y="446.0" />
+      <point x="62.22222222222223" y="103.0" />
+    </edge>
+    <edge source="com.company.CustomerTask" target="com.company.Storage">
+      <point x="-17.75" y="-27.0" />
+      <point x="488.7200441919192" y="456.0" />
+      <point x="474.87973484848493" y="456.0" />
+      <point x="124.44444444444446" y="103.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6620689655172414" x="786.9427083333334" y="696.9895833333333" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
